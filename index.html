@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./output.css">
+  <title>Frontend Mentor | NFT preview card component</title>
+</head>
+
+<body class="w-full h-screen bg-customVeryDarkBlueMainBG flex justify-center items-center">
+  <article class="card p-6 m-6 bg-customVeryDarkBlueCardBG rounded-2xl overflow-hidden">
+    <picture class="relative inline-block">
+      <img class="w-full h-auto block rounded-lg efecto-img" src="./images/image-equilibrium.jpg"
+        alt="equilibrium">
+      <img class="view-overlay absolute w-12" src="images/icon-view.svg" alt="View Overlay">
+    </picture>
+    <h1 class="text-customWhite font-600 text-22 mt-5 hover:text-customCyan">Equilibrium #3429</h1>
+    <p class="text-customSoftblue text-18 font-300 mt-5">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="flex justify-between items-center mt-5">
+      <div class="group flex justify-between items-center">
+        <img src="images/icon-ethereum.svg" alt="Icon Ethereum" class="inline-block">
+        <span class="text-customCyan text-16 font-600 ml-2">0.041 ETH</span>
+      </div>
+      <div class="group flex justify-between items-center">
+        <img src="images/icon-clock.svg" alt="">
+        <p class="text-customSoftblue text-16 font-400 ml-2"> 3 days left</p>
+      </div>
+    </div>
+    <hr class="mt-5 border-0.1 bg-customVeryDarkBlueLine">
+    <div class="creator mt-5 flex justify-start items-center">
+      <img class="w-8 border rounded-full" src="images/image-avatar.png" alt="Image Person">
+      <p class="font-small ml-2 text-customSoftblue">Creation of <span
+          class="text-customWhite hover:text-customCyan">Jules Wyvern</span></p>
+    </div>
+  </article>
+</body>
+<footer class="flex justify-center ">
+  <div class="attribution fixed bottom-0 text-center w-full text-customWhite">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      class="text-customCyan font-small">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/MariaValentinova"
+      class="text-customCyan font-small">@MariaValentinova</a>.
+  </div>
+</footer>
+
+</html>
